@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ul {
+  list-style: none;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;I
+}
+h1{
+  color: white;
+  z-index: 10;
+  position: relative;
+  margin: 10px;
+  font-weight: 800;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+li{
+  padding: 10px;
+}
+a{
+  color: white;
+}
+/*make sure to change into a class to make it depent  */
+p{ 
+  padding: 10px;
+  font-size: xx-large;
+  align-items: center;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+section{
+  position: relative;
+  color: white;
+}
+.box{
+  width: 300px;
+  height: 55vh;
+  margin-left: 1000px;
+  margin-top: 55px;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(225,0,0,100) 0%, rgba(255,106,0,100) 48%, rgba(240,131,190,100) 100%);
+}
+
+audio{
+  display:block;
+  width: 300px;
+  height: 5vh;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.43);
+  
+audio::-webkit-media-controls-start-playback-button{
+  
+}
+/* 
+html:
+- make the logo
+- get a header
+- then make the nav / links and make it in it
+- then inside make a nav bar
+- then the logo
+- then h1
+- then make a ul
+- then a li
+
+css:
+step 0: reset page to defult value
+step 1: making the iteam alignt in a straight line 
+step 2: space in between
+step 3: make li straight through the ul
+step 4: make space between each li
+*/
+
+  
